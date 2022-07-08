@@ -40,7 +40,7 @@ const App = () => {
             <ThemeProvider theme={theme}>
                 <CssBaseline />
                 <Container>
-                    <h1>GBA Exchange</h1>
+                    <h1>Lab 9 - DAPP</h1>
                     <h2>Chronium Balance</h2>
                     <Grid container justifyContent='space-between' alignItems='center'>
                         <Grid item xs={1}>
