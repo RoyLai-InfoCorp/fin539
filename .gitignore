@@ -103,6 +103,8 @@ dist
 # TernJS port file
 .tern-port
 
+# SOLIDITY
 */**/node_modules
 .env
 */**/cache
+*/**/artifacts
