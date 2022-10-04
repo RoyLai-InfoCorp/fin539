@@ -4,7 +4,7 @@ describe("Test TutorialERC20", () => {
   let accounts;
   beforeEach(async () => {
     accounts = await ethers.getSigners();
-    const factory = await ethers.getContractFactory("TutorialERC20_2");
+    const factory = await ethers.getContractFactory("TutorialERC20");
     tut = await factory.deploy(
       "TUT",
       "Tutorial ERC20 Token",
