@@ -8,8 +8,6 @@ contract ERC20 {
     uint256 _totalSupply;
     mapping(address=>uint256) _balanceOf;
     mapping(address=>mapping(address=>uint256)) _allowance;
-    event Transfer(address indexed _from, address indexed _to, uint256 _value);
-    event Approval(address indexed _owner, address indexed _spender, uint256 _value);
     
     function name() public view returns(string memory)
     {
@@ -53,14 +51,12 @@ contract ERC20 {
         require(fromBalance >= _value, "Insufficient balance");
         _balanceOf[msg.sender]=fromBalance - _value;
         _balanceOf[_to]+=_value;
-        emit Transfer(msg.sender, _to, _value);
         return true;
     }
 
     function approve(address _spender, uint256 _value) external returns(bool) {
         address owner = msg.sender;
         _allowance[owner][_spender] = _value;
-        emit Approval(owner, _spender, _value);
         return true;
     }
 
@@ -75,9 +71,6 @@ contract ERC20 {
         _balanceOf[_from] = fromBalance - _value;
 
         _balanceOf[_to] += _value;
-        emit Transfer(_from, _to, _value);
         return true;
     }
-
-
 }

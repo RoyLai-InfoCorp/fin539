@@ -10,6 +10,7 @@ contract ERC20 {
     mapping(address=>mapping(address=>uint256)) _allowance;
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
+
     
     function name() public view returns(string memory)
     {
@@ -78,6 +79,4 @@ contract ERC20 {
         emit Transfer(_from, _to, _value);
         return true;
     }
-
-
 }
