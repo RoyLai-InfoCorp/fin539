@@ -1,31 +1,25 @@
 import { ethers, BigNumber } from "ethers";
-const DISTILLERY_ADDRESS = "0x22902DBbB26fAF3fAfB76dfc0Ceb2d6Fb0EEd0a9";
-const CHRONIUM_ADDRESS = "0xA9cc515ab245df0F0B6Fd6d270A18679C99474ff";
+const DISTILLERY_ADDRESS = "0xa20f2c420f14418b580f60A4964727B66f34C88d";
+const CHRONIUM_ADDRESS = "0xDd6010412b61570bd6f0101460bb80bDbE103E28";
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 
 const getAccount = async () => {
-    await provider.send("eth_requestAccounts", []); // Login to metamask
-    const account = provider.getSigner();
-    return account;
+  await provider.send("eth_requestAccounts", []); // Login to metamask
+  const account = provider.getSigner();
 };
 
-const distill = async(time)=>{
-    console.log('distill');
-}
-
-const getChroniumBalance = async()=>{
-    console.log('getChroniumBalance');
-    return 0;
-}
-
-const getTimeBalance = async()=>{
-    console.log('getTimeBalance');
-    return 0;
-}
-
-export {
-    distill,
-    getChroniumBalance,
-    getTimeBalance,
-    getAccount,
+const distill = async (time) => {
+  console.log("distill");
 };
+
+const getChroniumBalance = async () => {
+  console.log("getChroniumBalance");
+  return 0;
+};
+
+const getTimeBalance = async () => {
+  console.log("getTimeBalance");
+  return 0;
+};
+
+export { distill, getChroniumBalance, getTimeBalance, getAccount };
