@@ -1,4 +1,6 @@
 // deploy.js
+const fs = require("fs");
+
 const { ethers } = require("hardhat");
 (async () => {
   let account = await ethers.getSigner();
@@ -12,5 +14,17 @@ const { ethers } = require("hardhat");
   console.log(
     "Crowdsale succcessfully deployed. Crowdsale address=",
     sales.address
+  );
+
+  fs.writeFileSync(
+    "./contracts.json",
+    JSON.stringify(
+      {
+        erc20: tut.address,
+        sales: sales.address,
+      },
+      null,
+      4
+    )
   );
 })();
