@@ -1,9 +1,4 @@
----
-id: solidity-10-dapp
-title: Lesson 10 - DApp
----
-
-# Lesson 10 - DApp - Decentralized App
+# DApp - Decentralized App
 
 Decentralized App basically refers to a front-end interface to the backend smart contract. The logic for the front-end is usually rendered entirely and runs on the browser-side with integration to a client-side wallet (eg. metamask). In this session, we will create a DAPP to interact with the DAI/TUT uniswap pool created in Lab-10.
 

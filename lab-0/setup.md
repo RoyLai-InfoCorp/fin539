@@ -1,7 +1,4 @@
----
-id: solidity-setup
-title: Setup
----
+# Setup
 
 ## A. Documentation Convention
 

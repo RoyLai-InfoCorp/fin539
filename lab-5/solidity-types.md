@@ -1,9 +1,4 @@
----
-id: solidity-5-solidity-types
-title: Lesson 5 - Solidity Types
----
-
-# Lesson 5 - Solidity Types
+# Solidity Types
 
 In this session, we will review and understand the types that were used in the ERC20 smart contract from the previous session.
 

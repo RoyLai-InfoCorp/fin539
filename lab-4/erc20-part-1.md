@@ -1,9 +1,4 @@
----
-id: solidity-4-ERC20-I
-title: Lesson 4 - ERC20 (Part I)
----
-
-# Lesson 4 - ERC20 Fungible Token Standard (Part I)
+# ERC20 Fungible Token Standard (Part I)
 
 Solidity is a language for writing Ethereum smart contracts, i.e., programs that run on the Ethereum blockchain. The official language syntax can be found at this link https://docs.soliditylang.org/en/v0.8.8/grammar.html.
 

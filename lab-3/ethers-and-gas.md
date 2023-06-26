@@ -1,16 +1,12 @@
----
-id: solidity-3-ethers
-title: Lesson 3 - Ethers
----
 # Ethers
 
 ## Ether (ETH)
 
-- **Ether (ETH)** is the native cryptocurrency of Ethereum. While Bitcoin's (the cryptocurrency) primary purpose is for value transfer or peer-to-peer electronic cash on the Bitcoin network, Ether's main utility is for running computations on the Ethereum blockchain.
+-   **Ether (ETH)** is the native cryptocurrency of Ethereum. While Bitcoin's (the cryptocurrency) primary purpose is for value transfer or peer-to-peer electronic cash on the Bitcoin network, Ether's main utility is for running computations on the Ethereum blockchain.
 
-- When a block is mined, miners receive a **mining reward** in Ether (ETH). This is how ETH is minted and added to circulation.
+-   When a block is mined, miners receive a **mining reward** in Ether (ETH). This is how ETH is minted and added to circulation.
 
-- Besides the mining rewards, ETH is also used by transaction senders to compensate miners for the computational resources consumed to run their transactions.
+-   Besides the mining rewards, ETH is also used by transaction senders to compensate miners for the computational resources consumed to run their transactions.
 
 ---
 
@@ -48,13 +44,13 @@ signer.sendTransaction(transactionRequest) =>  Promise<TransactionResponse>
 
 **NOTE:**
 
-- TransactionRequest
-- TransactionResponse
-- The Provider also has a sendTransaction() function, but that is used for `signed transactions`.
+-   TransactionRequest
+-   TransactionResponse
+-   The Provider also has a sendTransaction() function, but that is used for `signed transactions`.
 
 #### Example:
 
-- The example below sends 1 wei from accounts[0] to accounts[1] of the network wallet.
+-   The example below sends 1 wei from accounts[0] to accounts[1] of the network wallet.
     ```js
     > response = await accounts[0].sendTransaction(
         {
@@ -68,10 +64,10 @@ signer.sendTransaction(transactionRequest) =>  Promise<TransactionResponse>
 
 ## Ether Denominations
 
-- The standard unit used in Ethereum is wei.
-- ETH prices are quoted for Ether = 10^18 wei.
-- Gas prices are quoted in Gwei = 10^9 wei.
-- ERC20 units are generally quoted in wei = 1 wei.
+-   The standard unit used in Ethereum is wei.
+-   ETH prices are quoted for Ether = 10^18 wei.
+-   Gas prices are quoted in Gwei = 10^9 wei.
+-   ERC20 units are generally quoted in wei = 1 wei.
 
 <!-- prettier-ignore -->
 | Unit                  |Wei    |Value  |Wei                        |
