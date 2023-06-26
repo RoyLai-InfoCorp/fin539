@@ -1,9 +1,4 @@
----
-id: solidity-8-txn-cost
-title: Lesson 8 - Transaction Cost
----
-
-# Lesson 8 - Transactions and Gas
+# Transactions and Gas
 
 The Ethereum blockchain adopts a dual token model - Gas and Ether. The former determines the cost of using Smart Contract, which has a major influence on the way you write your smart contracts. Gas is the key contributing factor to what makes Solidity unique as compared to other languages. A clear understanding of gas and its impact on your design is a necessity for smart contract developers.
 

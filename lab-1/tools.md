@@ -1,9 +1,4 @@
----
-id: solidity-tools-1-tools
-title: Lesson 1 - Development Tools
----
-
-# Lesson 1 - Development Tools
+# Development Tools
 
 Before we start learning about Ethereum and smart contracts, let's familiarise ourselves with the tools that we will be using. For smart contract development, you will need three types of tools: a development environment, a library, and a network.
 

@@ -1,9 +1,4 @@
----
-id: solidity-6-erc20-2
-title: Lesson 6 - ERC20 (Part II)
----
-
-# Lesson 6 - ERC20 Fungible Token Standard (Part 2)
+# ERC20 Fungible Token Standard (Part 2)
 
 ## 1. Intro
 

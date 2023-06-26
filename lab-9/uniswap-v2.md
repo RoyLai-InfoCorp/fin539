@@ -1,9 +1,4 @@
----
-id: solidity-9-defi
-title: Lesson 9 - DEFI
----
-
-# Lesson 9 - DEFI(Uniswap V2)
+# DEFI(Uniswap V2)
 
 Decentralized Exchange (DEX) refers to token exchanges that are fully decentralized and on-chain as opposed to centralized exchanges like Binance.
 

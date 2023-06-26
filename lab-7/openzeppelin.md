@@ -1,8 +1,4 @@
----
-id: solidity-7-openzeppelin
-title: Lesson 7 - OpenZeppelin
----
-# Lesson 7 - OpenZeppelin Smart Contract Library
+# OpenZeppelin Smart Contract Library
 
 ## 1. Intro
 
